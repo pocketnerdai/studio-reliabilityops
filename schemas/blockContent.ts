@@ -49,6 +49,17 @@ export const blockContent = defineType({
     defineArrayMember({
       type: 'code',
       title: 'Code Block',
+      options: {
+        language: 'javascript',
+        languageAlternatives: [
+          {title: 'JavaScript', value: 'javascript'},
+          {title: 'TypeScript', value: 'typescript'},
+          {title: 'Python', value: 'python'},
+          {title: 'Bash', value: 'bash'},
+          {title: 'JSON', value: 'json'},
+        ],
+        withFilename: true,
+      },
     }),
   ],
 })
