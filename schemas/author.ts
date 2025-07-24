@@ -32,6 +32,7 @@ export const author = defineType({
       name: 'bio',
       title: 'Bio',
       type: 'array',
+      description: 'A short biography of the author',
       of: [
         {
           title: 'Block',
