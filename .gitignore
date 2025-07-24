@@ -1,0 +1,27 @@
+# Logs
+/logs
+*.log
+
+# Dependencies
+node_modules
+
+# Compiled sanity studio
+/dist
+
+# Temporary files
+.sanity
+.turbo
+
+# Secrets
+.env
+.env.local
+
+# Misc
+.DS_Store
+*.pem
+
+# Typescript
+*.tsbuildinfo
+
+# VS Code
+.vscode
