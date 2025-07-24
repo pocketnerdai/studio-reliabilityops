@@ -60,6 +60,7 @@ export const post = defineType({
       type: 'text',
       rows: 4,
       validation: Rule => Rule.required().max(200),
+      description: 'Short description for blog post preview',
     }),
     defineField({
       name: 'body',
